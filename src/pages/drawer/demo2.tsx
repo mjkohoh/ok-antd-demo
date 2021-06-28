@@ -29,6 +29,7 @@ export default () => {
         placement={placement}
         onClose={onClose}
         visible={visible}
+        key={placement}
       >
         <p>Some Content...</p>
         <p>Some Content...</p>
